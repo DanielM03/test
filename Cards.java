@@ -20,7 +20,7 @@ public class Cards {
             int pos = rand.nextInt(51) + 1; //Creates a random number between 1-52
             int temp = deck[i]; // Creates a temp variable which stores the current index of deck
             deck[i] = deck[pos]; // Assigns the i position of the deck int array to a new random position
-            deck[pos] = temp; // Assigns the pos position of the deck to the temp variable
+            deck[pos] = temp; // Assigns the pos position of the deck to the temp variablea
         }
 
         for (int i = 0; i < 4; i++) { //For loop which loops from 0-4 (this will produce a random selection of 4 cards)
